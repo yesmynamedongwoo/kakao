@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <meta charset="UTF-8">
+        <title>카카오톡 클론</title>
+    </head>
+
+<style>
+    .container {
+        width: 400px;
+        height: 800px;
+        border: 1px solid lightgray;
+        margin: 50px auto;
+        position: relative;
+
+    }
+    .pink-box{
+        height: 500px;
+        background-color: pink;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0 50px;
+    }
+    .line {
+        margin-bottom: 10px;
+        color: white;
+    }
+
+    .white-box {
+        height: 260px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 15px;
+    }
+
+    .profile_message {
+        text-align: center;
+        color: white;
+    }
+
+    .image {
+        width: 300px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 10pt;
+        top: -100px;
+    }
+
+    .icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .chat-icon {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .profile-icon {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .story-icon {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .photo1 {
+        width: 100px;
+        height: 100px;
+        margin: auto;
+        top: 450px;
+        object-fit: cover;
+        border-radius: 50%;
+        position: absolute;
+        background: url("../static/dongwoo.png");
+        background-position: center;
+        background-size: cover;
+
+    }
+    .name
+    {
+        top: 10px;
+    }
+
+
+</style>
+
+
+
+<body>
+<div class="container">
+    <div class="pink-box">
+        <div class="line">____________________</div>
+        <div class="profile_message">
+            코린이 응애 울어
+        </div>
+    </div>
+
+    <div class="white-box">
+<div class="photo1">
+    </div>
+        <h3 class="name">김동우</h3>
+        <div class="image">
+            <div class="chat-icon">
+                <img class="icon" src="../static/a.png" alt="chat"/>
+                <h4>나와의 채팅</h4>
+            </div>
+            <div class="profile-icon">
+                <img class="icon" src="../static/c.png" alt="profile"/>
+                <h4>프로필 관리</h4>
+            </div>
+            <div class="story-icon">
+                <img class="icon" src="../static/b.png" alt="story"/>
+                <h4>카카오 스토리</h4>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
